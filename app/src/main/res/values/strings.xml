@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">s172589 - CheapFuel</string>
+
+    <!-- Meny -->
+    <string name="instillinger">Innstillinger</string>
+    <string name="kart">Kart</string>
+
+    <!-- Forside -->
+    <string name="ingen_stasjon">Ingen stasjon å gå til! Legg til stasjon i hovedkart</string>
+    <string name="slett_stasjon1">Er du sikker på at du vil slette stajson: </string>
+    <string name="slett_stasjon2">Stasjonen blir slettet permanent!</string>
+    <string name="default_stasjon">Ingen stasjoner</string>
+    <string name="default_billigste">Ingen stasjoner å vise</string>
+
+    <!-- Kart -->
+    <string name="info_tittel">Bruk av kartet</string>
+    <string name="info_meld1">Her vises alle stasjonene som finnes i vår database.</string>
+    <string name="info_meld2">For å vise informasjon om en stasjon, trykk på logoen for den aktuelle stasjonen!</string>
+    <string name="info_meld3">Trykk på meldingsboksen over logoen for å endre prisen på stasjonen som er valgt</string>
+    <string name="info_meld4">NB! Denne meldingen vises bare en gang!</string>
+    <string name="info_meld5">Trykk OK for å fortsette!</string>
+
+    <string name="endre_tittel">Endre pris!</string>
+    <string name="endre_meld">Vil du endre prisen på stajsonen?</string>
+    <string name="ja">Ja</string>
+    <string name="nei">Nei</string>
+    <string name="endre_ny_pris">Skriv inn ny pris</string>
+    <string name="endre_tomt_felt">Kan ikke registere tomt felt</string>
+    <string name="endre_suksess">Pris endret på </string>
+
+    <string name="lagre_tittel">Lagre stasjon</string>
+    <string name="lagre_meld">Vil du lagre en ny stasjon her?</string>
+
+    <string name="stasj_snippet">Pris på bensin:</string>
+
+    <!-- SjekkEksternDatabase-->
+    <string name="sjekkDB_koble_til">Kunne ikke koble til server</string>
+    <string name="sjekkDB_ingen_stasjoner">Ingen stasjoner tilgjengelig</string>
+
+    <string name="meld_leggTil_tittel">Stasjoner lagt til:</string>
+    <string name="meld_leggTil_pris">. Pris: </string>
+    <string name="meld_slett_tittel">Følgende stasjoner er slettet:</string>
+    <string name="meld_dyrere_tittel">DYRERE BENSIN!</string>
+    <string name="meld_billigere_pris">!!! BILLIGERE !!!</string>
+
+    <string name="error_internett">Kunne ikke lese fra databasen. Har du slått på internett?</string>
+
+    <!-- ListViewAdapter -->
+    <string name="listV_dist">Til stasjon: </string>
+    <string name="listV_dist_err">Kan ikke vise distanse</string>
+
+    <string name="listV_pris">Pris på bensin:</string>
+    <string name="listV_pris_err">Ingen pris tilgjengelig</string>
+
+    <!-- LeggTilStasjon -->
+    <string name="leggTil_tittel">Legg til</string>
+    <string name="leggTil_navn_err">Navn kan ikke være tomt!</string>
+    <string name="leggTil_pris_err">Kan ikke registrere pris!</string>
+    <string name="leggTil_pris_err_lavt">Pris kan ikke være 0.0!</string>
+    <string name="leggTil_stasj_finnes"> finnes allerede!</string>
+
+    <!-- EnkelStasjonKart -->
+    <string name="enkel_info_tittel">Bruk av kartet</string>
+    <string name="enkel_info_meld1">Her vises den stasjonen du har valgt fra forsiden.</string>
+    <string name="enkel_info_meld2">For å vise informasjon om en stasjon, trykk på logoen for den aktuelle stasjonen!</string>
+    <string name="enkel_info_meld3">Trykk på meldingsboksen for å vise din posisjon i forhold til den valgte stasjonen!</string>
+    <string name="enkel_info_meld4">Dette krever at GPS er slått på! Dette kan gjøres i Innstillinger</string>
+    <string name="enkel_info_meld5">NB! Denne meldingen vises bare en gang!</string>
+    <string name="enkel_info_meld6">Trykk OK for å fortsette!</string>
+
+    <string name="enkel_dest_err">Kan ikke sette destinasjon til deg selv</string>
+    <string name="enkel_dest_tittel">Vis hvor du er på kartet!</string>
+    <string name="enkel_dest_meld1">Vil du vise din posisjon og </string>
+    <string name="enkel_dest_meld2">distansen (i luftlinje) til </string>
+    <string name="enkel_dest_minPos">Min posisjon</string>
+    <string name="enkel_dest_avstand"> km til stasjonen</string>
+    <string name="enkel_dest_posOK">Viser din posisjon!</string>
+    <string name="enkel_dest_GPS">Ingen posisjon funnet, skru på GPS!</string>
+    <string name="enkel_leggTil">Gå til kart med alle stasjoner for å legge til ny stasjon</string>
+
+    <!-- Innstillinger -->
+    <string name="inst_tittel">Innstillinger</string>
+    <string name="inst_GPSav_tittel">Slå av GPS?</string>
+    <string name="inst_GPSav_meld1">Vil du slå av GPS?</string>
+    <string name="inst_GPSav_meld2">Du vil bli sendt til telefonens egen innstilling for dette.</string>
+    <string name="inst_GPSpå_tittel">Slå på GPS?</string>
+    <string name="inst_GPSpå_meld1">Vil du slå på GPS?</string>
+    <string name="inst_GPSpå_meld2">Du vil bli sendt til telefonens egen innstilling for dette.</string>
+    <string name="GPS_tekst">GPS</string>
+    <string name="oppdatering">Automatisk oppdatering?</string>
+</resources>

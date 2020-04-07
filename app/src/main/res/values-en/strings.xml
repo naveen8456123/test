@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">s172589 - CheapFuel</string>
+
+    <!-- Meny -->
+    <string name="instillinger">Settings</string>
+    <string name="kart">Map</string>
+
+    <!-- Forside -->
+    <string name="slett_stasjon1">You sure you want to delete station:</string>
+    <string name="slett_stasjon2">The station will be permanently deleted!</string>
+    <string name="default_stasjon">No stations</string>
+    <string name="default_billigste">Nothing to show!</string>
+
+    <!-- Kart -->
+    <string name="info_tittel">Use of the map</string>
+    <string name="info_meld2">To show information about a specific station, press the stationlogo!</string>
+    <string name="info_meld4">NB! This message will only show once!</string>
+    <string name="info_meld5">Press OK to continue!</string>
+
+    <string name="endre_tittel">Change price!</string>
+    <string name="nei">No</string>
+    <string name="endre_ny_pris">Enter a new price</string>
+    <string name="endre_suksess">Price changed: </string>
+
+    <string name="lagre_tittel">Save station!</string>
+    <string name="lagre_meld">You want to add a new station here?</string>
+
+    <string name="stasj_snippet">Gasprice:</string>
+
+    <!-- SjekkEksternDatabase-->
+
+    <string name="meld_leggTil_tittel">Stations added:</string>
+    <string name="meld_leggTil_pris">. Price:</string>
+    <string name="meld_slett_tittel">Following station was deleted:</string>
+    <string name="meld_dyrere_tittel">MORE EXPENSIVE!</string>
+    <string name="meld_billigere_pris">!!! CHEAPER !!!</string>
+
+    <string name="error_internett">Could not read from the database. Is your internet enabled?</string>
+
+    <!-- ListViewAdapter -->
+    <string name="listV_dist">To station:</string>
+
+    <string name="listV_pris">Gasprice:</string>
+
+    <!-- LeggTilStasjon -->
+    <string name="leggTil_tittel">Add</string>
+    <string name="leggTil_navn_err">The station must have a name!</string>
+    <string name="leggTil_pris_err">Can not register the price!</string>
+    <string name="leggTil_pris_err_lavt">The price can not be 0.0!</string>
+    <string name="leggTil_stasj_finnes">allready exists!</string>
+
+    <!-- EnkelStasjonKart -->
+    <string name="enkel_info_tittel">Use of the map!</string>
+    <string name="enkel_info_meld2">To show information about the station, press the stationlogo!</string>
+    <string name="enkel_info_meld4">This requires GPS enabled! That can be done in the Settingsmenu.</string>
+    <string name="enkel_info_meld5">NB! This message will only show once!</string>
+    <string name="enkel_info_meld6">Press OK to continue!</string>
+
+    <string name="enkel_dest_tittel">Show where you are on the map!</string>
+    <string name="enkel_dest_meld1">Do you want to show your position and</string>
+    <string name="enkel_dest_meld2">distance (in the air) to</string>
+    <string name="enkel_dest_minPos">My position</string>
+    <string name="enkel_dest_avstand">km to the station</string>
+    <string name="enkel_dest_posOK">Showing your position!</string>
+    <string name="enkel_dest_GPS">No position found, turn on GPS!</string>
+
+    <!-- Innstillinger -->
+    <string name="inst_tittel">Settings</string>
+    <string name="inst_GPSav_meld1">You want to turn off the GPS?</string>
+    <string name="inst_GPSav_meld2">You will be redirected to the phonesettings</string>
+    <string name="inst_GPSpå_tittel">Turn on GPS?</string>
+    <string name="inst_GPSpå_meld1">You want to turn on the GPS?</string>
+    <string name="inst_GPSpå_meld2">You will be redirected to the phonesettings</string>
+    <string name="GPS_tekst">GPS</string>
+    <string name="oppdatering">Automatic update?</string>
+    <string name="endre_meld">Change the gasprice?</string>
+    <string name="endre_tomt_felt">Can not register on a empty field!</string>
+    <string name="enkel_dest_err">No destination to yourself!</string>
+    <string name="enkel_info_meld1">The station you chose on the front page shows up here.</string>
+    <string name="enkel_info_meld3">Press the messagewindow to show your position on the map!</string>
+    <string name="enkel_leggTil">To add a new station, to to the map in the frontpage-menu</string>
+    <string name="info_meld1">This map shows all stations in our database.</string>
+    <string name="info_meld3">Click on the messagewindow to change the price!</string>
+    <string name="ingen_stasjon">No station to go to! Add a new one in the main map</string>
+    <string name="inst_GPSav_tittel">Turn off GPS?</string>
+    <string name="ja">Yes</string>
+    <string name="listV_dist_err">Distance unavailable</string>
+    <string name="listV_pris_err">No price available</string>
+    <string name="sjekkDB_ingen_stasjoner">No stations available</string>
+    <string name="sjekkDB_koble_til">Unable to connect to server</string>
+</resources>

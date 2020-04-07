@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_marginBottom="15dp">
+
+    <ImageView
+        android:id="@+id/stasjonIcon"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="7dp"/>
+
+    <LinearLayout
+        android:id="@+id/infoStasjon"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/stasjonIcon">
+
+        <TextView
+            android:id="@+id/navnTekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#eee"
+            android:textSize="18dp"
+            android:typeface="sans"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/prisTekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#ddd"
+            android:textSize="10dp"
+            android:typeface="sans"
+            android:singleLine="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="7dp"/>
+        <TextView
+            android:id="@+id/distTekst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="#ddd"
+            android:textSize="10dp"
+            android:typeface="sans"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/direFelt"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:layout_alignRight="@+id/infoStasjon">
+        <ImageView
+            android:id="@+id/dire"
+            android:contentDescription="Slett stasjon"
+            android:src="@drawable/ic_direction"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</RelativeLayout>
